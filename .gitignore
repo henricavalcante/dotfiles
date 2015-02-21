@@ -1,4 +1,6 @@
 *
+!README.md
+!.gitmodules
 !.vimrc
 !.vim/*
 !.vim/**/*
