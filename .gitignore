@@ -1,6 +1,5 @@
-*
-!README.md
-!.gitmodules
-!.vimrc
-!.vim/*
-!.vim/**/*
+/*
+!/README.md
+!/.gitmodules
+!/.vimrc
+!/.vim/
