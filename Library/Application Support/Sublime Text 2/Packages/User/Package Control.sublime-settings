@@ -10,6 +10,7 @@
 		"JSHint Gutter",
 		"MasmAssembly",
 		"Package Control",
-		"Phpcs"
+		"Phpcs",
+		"SublimeCodeIntel"
 	]
 }

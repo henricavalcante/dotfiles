@@ -1,9 +1,11 @@
 {
 	"folder_history":
 	[
+		"/Users/henrimichel/git/maisquestoes/api-mean",
+		"/Users/henrimichel/git/minetest",
+		"/Users/henrimichel/git/nejs/hackathon1",
 		"/Users/henrimichel",
 		"/Users/henrimichel/git/johnny-five",
-		"/Users/henrimichel/git/maisquestoes/api-mean",
 		"/Users/henrimichel/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows",
 		"/Users/henrimichel/git/dracula-theme",
 		"/Users/henrimichel/.vim",
@@ -33,7 +35,7 @@
 		"/Users/henrimichel/pyteste",
 		"/Users/henrimichel/Desktop/WILIVRO"
 	],
-	"last_window_id": 108,
+	"last_window_id": 117,
 	"settings":
 	{
 		"new_window_height": 642.0,
@@ -205,6 +207,9 @@
 			},
 			"file_history":
 			[
+				"/Users/henrimichel/git/minetest/world/eula.txt",
+				"/Users/henrimichel/git/minetest/server.properties",
+				"/Users/henrimichel/git/minetest/eula.txt",
 				"/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/users/users.authorization.server.controller.js",
 				"/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/users/users.authentication.server.controller.js",
 				"/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/users/users.profile.server.controller.js",
@@ -336,6 +341,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"=",
 					"sidebar",
 					"side",
 					"site",
@@ -462,8 +468,7 @@
 					"31",
 					"],\n									[",
 					"[19",
-					"'",
-					"\n							'status' => 0,"
+					"'"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -920,10 +925,18 @@
 			"buffers":
 			[
 				{
-					"file": "/Users/henrimichel/.gitignore",
+					"file": "/Users/henrimichel/git/minetest/test.js",
 					"settings":
 					{
-						"buffer_size": 250,
+						"buffer_size": 262,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/henrimichel/git/minetest/world/server.properties",
+					"settings":
+					{
+						"buffer_size": 632,
 						"line_ending": "Unix"
 					}
 				}
@@ -972,6 +985,9 @@
 			},
 			"file_history":
 			[
+				"/Users/henrimichel/git/minetest/world/eula.txt",
+				"/Users/henrimichel/git/minetest/server.properties",
+				"/Users/henrimichel/git/minetest/eula.txt",
 				"/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/users/users.authorization.server.controller.js",
 				"/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/users/users.authentication.server.controller.js",
 				"/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/users/users.profile.server.controller.js",
@@ -1103,6 +1119,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"=",
 					"sidebar",
 					"side",
 					"site",
@@ -1229,8 +1246,7 @@
 					"31",
 					"],\n									[",
 					"[19",
-					"'",
-					"\n							'status' => 0,"
+					"'"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1249,7 +1265,7 @@
 			"folders":
 			[
 				{
-					"path": "/Users/henrimichel"
+					"path": "/Users/henrimichel/git/minetest"
 				}
 			],
 			"groups":
@@ -1260,23 +1276,52 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/henrimichel/.gitignore",
+							"file": "/Users/henrimichel/git/minetest/test.js",
 							"settings":
 							{
-								"buffer_size": 250,
+								"buffer_size": 262,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										249,
-										249
+										165,
+										165
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"auto_complete": false,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/henrimichel/git/minetest/world/server.properties",
+							"settings":
+							{
+								"buffer_size": 632,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										433,
+										433
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Java/JavaProperties.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1598,7 +1643,999 @@
 			"side_bar_visible": true,
 			"side_bar_width": 206.0,
 			"status_bar_visible": true,
-			"window_id": 108,
+			"window_id": 116,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"aute",
+						"authenticate"
+					],
+					[
+						"apikey",
+						"apikey"
+					],
+					[
+						"apike",
+						"apikey"
+					],
+					[
+						"pro",
+						"property"
+					],
+					[
+						"fo",
+						"forwardButton"
+					],
+					[
+						"Chil",
+						"Children"
+					],
+					[
+						"upda",
+						"updateValueIo"
+					],
+					[
+						"for",
+						"for	for (…) {…}"
+					],
+					[
+						"o",
+						"oauth_verifier"
+					],
+					[
+						"_reques",
+						"_requestTokenSecret"
+					],
+					[
+						"request",
+						"requestTokenSecret"
+					],
+					[
+						"token",
+						"tokenSecret"
+					],
+					[
+						"func",
+						"function_exists"
+					],
+					[
+						"pubi",
+						"public"
+					],
+					[
+						"size",
+						"sizeH"
+					],
+					[
+						"MATRIX",
+						"MATRIXCOLS"
+					],
+					[
+						"remove",
+						"removeEdges"
+					],
+					[
+						"matri",
+						"matrixResult"
+					],
+					[
+						"matr",
+						"matrixResult"
+					],
+					[
+						"image",
+						"imageCompared"
+					],
+					[
+						"debug",
+						"debugString"
+					],
+					[
+						"edge",
+						"edgeSize"
+					],
+					[
+						"region",
+						"regionToCompare"
+					],
+					[
+						"sizecel",
+						"sizecelh"
+					],
+					[
+						"matrix",
+						"matrixcols"
+					],
+					[
+						"ma",
+						"matrixcols"
+					],
+					[
+						"redire",
+						"redirectLoggedInUser"
+					],
+					[
+						"action",
+						"actionLogout"
+					],
+					[
+						"user",
+						"userPermissions"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/companies.server.controller.js",
+					"settings":
+					{
+						"buffer_size": 2044,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/emaxiningboards.server.controller.js",
+					"settings":
+					{
+						"buffer_size": 2293,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/likes.server.controller.js",
+					"settings":
+					{
+						"buffer_size": 1933,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/questions.server.controller.js",
+					"settings":
+					{
+						"buffer_size": 2077,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/roles.server.controller.js",
+					"settings":
+					{
+						"buffer_size": 1933,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/subjects.server.controller.js",
+					"settings":
+					{
+						"buffer_size": 2041,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 67.0,
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Install",
+						"Package Control: Install Package"
+					],
+					[
+						"PHP Code Sniffer: ",
+						"PHP Code Sniffer: Switch coding standard"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/henrimichel/git/minetest/world/eula.txt",
+				"/Users/henrimichel/git/minetest/server.properties",
+				"/Users/henrimichel/git/minetest/eula.txt",
+				"/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/users/users.authorization.server.controller.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/users/users.authentication.server.controller.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/users/users.profile.server.controller.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/package.json",
+				"/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/users/users.password.server.controller.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/app/tests/question.server.model.test.js",
+				"/Users/henrimichel/.vim/.gitmodules",
+				"/Users/henrimichel/.gitmodules",
+				"/Users/henrimichel/git/maisquestoes/api-mean/config/env/test.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/app/tests/user.server.model.test.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/app/tests/question.server.routes.test.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/config/passport.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/gruntfile.js",
+				"/Users/henrimichel/.profile",
+				"/Users/henrimichel/git/maisquestoes/api-mean/app/models/jsonreturn.server.model.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/questions.server.controller.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/users/controllers/settings.client.controller.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/questions/config/questions.client.config.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/users/views/settings/change-password.client.view.html",
+				"/Users/henrimichel/git/maisquestoes/api-mean/config/env/production.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/config/env/development.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/app/models/user.server.model.js",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/users/views/authentication/signup.client.view.html",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/users/views/password/forgot-password.client.view.html",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/users/views/password/reset-password-invalid.client.view.html",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/users/views/password/reset-password-success.client.view.html",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/users/views/password/reset-password.client.view.html",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/users/views/settings/edit-profile.client.view.html",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/users/views/settings/social-accounts.client.view.html",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/core/views/home.client.view.html",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/core/views/header.client.view.html",
+				"/Users/henrimichel/git/maisquestoes/api-mean/public/modules/users/views/authentication/signin.client.view.html",
+				"/Users/henrimichel/git/allowance/app/controllers/families.server.controller.js",
+				"/Users/henrimichel/git/allowance/config/env/production.js",
+				"/Users/henrimichel/git/allowance/public/modules/users/views/authentication/signin.client.view.html",
+				"/Users/henrimichel/git/allowance/public/modules/users/views/authentication/signup.client.view.html",
+				"/Users/henrimichel/git/allowance/public/modules/families/config/families.client.routes.js",
+				"/Users/henrimichel/git/allowance/app/routes/families.server.routes.js",
+				"/Users/henrimichel/git/allowance/public/modules/core/views/header.client.view.html",
+				"/Users/henrimichel/git/allowance/public/modules/core/controllers/header.client.controller.js",
+				"/Users/henrimichel/git/allowance/public/modules/core/views/home.client.view.html",
+				"/Users/henrimichel/git/allowance/public/modules/core/services/menus.client.service.js",
+				"/Users/henrimichel/git/allowance/public/modules/core/controllers/home.client.controller.js",
+				"/Users/henrimichel/git/allowance/app/models/user.server.model.js",
+				"/Users/henrimichel/git/allowance/README.md",
+				"/Users/henrimichel/git/allowance/config/assets.json",
+				"/Users/henrimichel/git/allowance/config/express.js",
+				"/Users/henrimichel/git/allowance/packages/users/server/tests/users.js",
+				"/Users/henrimichel/GIT/fork/johnny-five/lib/fn.js",
+				"/Users/henrimichel/GIT/fork/johnny-five/test/fn.js",
+				"/Users/henrimichel/convert.sh",
+				"/usr/local/bin/mp3-ogg-generator",
+				"/usr/local/bin/png-compressor",
+				"/Users/henrimichel/GIT/wilivro/alfabetizacao/audio/enunciados/alfabetizacao_escala/unidade1/convert.sh",
+				"/Users/henrimichel/GIT/lodgefy/model/reedSwitch.js",
+				"/Users/henrimichel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/henrimichel/GIT/henricavalcante.github.io/index.html",
+				"/Users/henrimichel/GIT/lodgefy.github.io/index.html",
+				"/Users/henrimichel/GIT/lodgefy/node_modules/cookie-parser/package.json",
+				"/Users/henrimichel/GIT/lodgefy/node_modules/body-parser/package.json",
+				"/Users/henrimichel/GIT/lodgefy/package.json",
+				"/Users/henrimichel/GIT/lodgefy/routes/twitter.js",
+				"/Users/henrimichel/GIT/lodgefy/model/mongoose.js",
+				"/Users/henrimichel/GIT/lodgefy/routes/index.js",
+				"/Users/henrimichel/GIT/lodgefy/app.js",
+				"/Users/henrimichel/GIT/lodgefy/routes/sensor.js",
+				"/Users/henrimichel/GIT/lodgefy/twitter.js",
+				"/Users/henrimichel/GIT/lodgefy/model/user.js",
+				"/Users/henrimichel/GIT/lodgefy/controller/sensor.js",
+				"/Users/henrimichel/GIT/lodgefy/model/index.js",
+				"/Users/henrimichel/GIT/lodgefy/express.js",
+				"/Users/henrimichel/GIT/lodgefy/controller/user.js",
+				"/Users/henrimichel/wiquadro/sis/protected/views/layouts/teste01.php",
+				"/Users/henrimichel/GIT/openOMR_/example/example.php",
+				"/Users/henrimichel/GIT/openOMR_/openomr.php",
+				"/Users/henrimichel/wiquadro/sis/openomr.php",
+				"/Users/henrimichel/wiquadro/sis/protected/views/home/dashboard.php",
+				"/Users/henrimichel/wiquadro/alunochat/server.js",
+				"/Users/henrimichel/wiquadro/alunochat/database-config.js",
+				"/Users/henrimichel/wiquadro/sis/web.config",
+				"/Users/henrimichel/wiquadro/sis/protected/components/UsuarioIdentity.php",
+				"/Users/henrimichel/wiquadro/sis/protected/controllers/HomeController.php",
+				"/Users/henrimichel/wiquadro/sis/protected/models/Widget.php",
+				"/Users/henrimichel/wiquadro/sis/protected/controllers/SiteController.php",
+				"/Users/henrimichel/wiquadro/sis/protected/models/Usuario.php",
+				"/Users/henrimichel/wiquadro/sis/protected/views/plataforma/exercicio.php",
+				"/Users/henrimichel/wiquadro/sis/protected/controllers/PlataformaController.php",
+				"/Users/henrimichel/wiquadro/.gitignore",
+				"/Users/henrimichel/wiquadro/sis/protected/models/Alunoturma.php",
+				"/Users/henrimichel/wiquadro/sis/protected/views/layouts/_menuLateral.php",
+				"/Users/henrimichel/wiquadro/sis/protected/views/layouts/_userinfo.php",
+				"/Users/henrimichel/wiquadro/sis/protected/config/main.php",
+				"/Users/henrimichel/wiquadro/sis/index.php",
+				"/Users/henrimichel/wiquadro/sis/protected/views/layouts/site.php",
+				"/Users/henrimichel/wiquadro/yii/framework/web/auth/CUserIdentity.php",
+				"/Users/henrimichel/wiquadro/yii/framework/web/auth/CBaseUserIdentity.php",
+				"/Users/henrimichel/wiquadro/sis/protected/models/Forum.php",
+				"/Users/henrimichel/wiquadro/sis/protected/components/Helper.php",
+				"/Users/henrimichel/wiquadro/sis/protected/views/layouts/sistema.php",
+				"/Users/henrimichel/wiquadro/sis/css/main.min.css",
+				"/Users/henrimichel/wiquadro/sis/css/estude-treeedc.css",
+				"/Users/henrimichel/wiquadro/sis/protected/views/plataforma/treeEdcs.php",
+				"/Users/henrimichel/wiquadro/sis/protected/views/layouts/teste.php",
+				"/Users/henrimichel/wiquadro/sis/protected/views/layouts/_breadcrumb.php",
+				"/Users/henrimichel/wiquadro/sis/protected/views/home/index.php",
+				"/Users/henrimichel/wiquadro/sis/protected/models/Edc.php",
+				"/Users/henrimichel/wiquadro/sis/protected/config/database-development.php",
+				"/Users/henrimichel/wiquadro/sis/protected/views/widgets/classificacao.php"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"/Users/henrimichel/git/maisquestoes/api-mean",
+					"/Users/henrimichel/wiquadro",
+					"/Users/henrimichel/git/allowance",
+					"/Users/henrimichel/GIT/johnny-five",
+					"/Users/henrimichel/wiquadro/sis",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"=",
+					"sidebar",
+					"side",
+					"site",
+					"side bar",
+					"side_bar",
+					" side",
+					"side",
+					"user",
+					"undefine",
+					"3",
+					"unique",
+					"username",
+					"salt",
+					"user3",
+					"findUniqueUsername",
+					"hashPassword",
+					"validateLocalStrategyApikey",
+					"password",
+					"validateLocalStrategyPassword",
+					"xml",
+					"blue",
+					"/Users/henrimichel",
+					"	path = ",
+					"[submodule",
+					".vim/bundle/",
+					"bundle/",
+					"588",
+					"i",
+					"mode",
+					",",
+					"-",
+					"81",
+					"	",
+					"LocalStrategy(",
+					",\n			provider: 'local'",
+					":{}\n",
+					"h3",
+					"h4",
+					"$scope.",
+					"families",
+					"events",
+					"goToNextEdcMidia",
+					"onClickForwardButton",
+					"nextEdcMidia",
+					"openEdcMidia",
+					"recordConclusionDateForEdc",
+					"goToNextEdcMidia",
+					"openEdcMidia",
+					"onClickForwardButton",
+					"forwardButton",
+					"span",
+					"user",
+					"button",
+					"choice",
+					"Choice",
+					"choice",
+					"Choice",
+					"choice",
+					"env/development",
+					"config/env",
+					"process.env.NODE_ENV",
+					".db",
+					"process.env.NODE_ENV !== 'production'",
+					"production",
+					"DB_PORT_27017_TCP_ADDR",
+					"arguments",
+					"sum",
+					"        ",
+					"       ",
+					"      ",
+					"     ",
+					"    ",
+					"   ",
+					"  ",
+					"user",
+					"serial",
+					"board",
+					"reduce(",
+					"sum",
+					"sum(",
+					"io",
+					"Io",
+					"Sensor",
+					"  ",
+					"',",
+					"_callBack",
+					"sensorSchema",
+					"Sensor",
+					"ensor",
+					"sensor",
+					"Sensor",
+					"sensor",
+					"Sensor",
+					"sensor",
+					"\");\n",
+					"User",
+					"user",
+					"doc",
+					"apikey",
+					"ApiKey",
+					"apikey",
+					"index",
+					"Square",
+					");\n",
+					"margin_error",
+					"[\n							'field'",
+					"],			",
+					"],",
+					"24,",
+					"31,",
+					"'6",
+					"17",
+					"'4",
+					"10,",
+					"'2",
+					"41",
+					"8",
+					"49",
+					"'field' =>",
+					"32",
+					"'field' => ",
+					"32,",
+					"32",
+					"31",
+					"],\n									[",
+					"[19",
+					"'"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"#####"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/henrimichel/git/maisquestoes/api-mean"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 5,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/companies.server.controller.js",
+							"settings":
+							{
+								"buffer_size": 2044,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										198,
+										198
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/emaxiningboards.server.controller.js",
+							"settings":
+							{
+								"buffer_size": 2293,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										212,
+										212
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/likes.server.controller.js",
+							"settings":
+							{
+								"buffer_size": 1933,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										192,
+										192
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/questions.server.controller.js",
+							"settings":
+							{
+								"buffer_size": 2077,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										200,
+										200
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/roles.server.controller.js",
+							"settings":
+							{
+								"buffer_size": 1933,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										192,
+										192
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/Users/henrimichel/git/maisquestoes/api-mean/app/controllers/subjects.server.controller.js",
+							"settings":
+							{
+								"buffer_size": 2041,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										198,
+										198
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 120.0
+			},
+			"output.rc-module":
+			{
+				"height": 100.0
+			},
+			"output.stino_log":
+			{
+				"height": 100.0
+			},
+			"position": "128 67 1020 664 0 0 1280 777 ",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"testmodel",
+						"app/tests/question.server.model.test.js"
+					],
+					[
+						"question",
+						"app/tests/question.server.model.test.js"
+					],
+					[
+						"usertest",
+						"app/tests/user.server.model.test.js"
+					],
+					[
+						"usermodel",
+						"app/models/user.server.model.js"
+					],
+					[
+						"packa",
+						"package.json"
+					],
+					[
+						"user",
+						"app/tests/user.server.model.test.js"
+					],
+					[
+						"login",
+						"app/controllers/logins.server.controller.js"
+					],
+					[
+						"json",
+						"app/models/jsonreturn.server.model.js"
+					],
+					[
+						"passport",
+						"config/passport.js"
+					],
+					[
+						"header",
+						"public/modules/core/controllers/header.client.controller.js"
+					],
+					[
+						"menu",
+						"public/modules/core/services/menus.client.service.js"
+					],
+					[
+						"users",
+						"packages/users/server/tests/users.js"
+					],
+					[
+						"fn.js",
+						"lib/fn.js"
+					],
+					[
+						"jn.js",
+						"lib/johnny-five.js"
+					],
+					[
+						"edccontro",
+						"sis/protected/controllers/EdcController.php"
+					],
+					[
+						"databsejs",
+						"alunochat/database-config.js"
+					],
+					[
+						"database",
+						"alunochat/database-config.js"
+					],
+					[
+						"server.js",
+						"alunochat/server.js"
+					],
+					[
+						"controllerusuario",
+						"sis/protected/controllers/UsuarioController.php"
+					],
+					[
+						"projetoview",
+						"sis/protected/views/projeto/view.php"
+					],
+					[
+						"site.p",
+						"sis/protected/views/layouts/site.php"
+					],
+					[
+						"edcs",
+						"sis/protected/views/pratique/edcs.php"
+					],
+					[
+						"pratiquecontr",
+						"sis/protected/controllers/PratiqueController.php"
+					],
+					[
+						"appwe",
+						"sis/protected/components/AppWebUser.php"
+					],
+					[
+						"authmanager",
+						"yii/framework/web/auth/CDbAuthManager.php"
+					],
+					[
+						"appcontro",
+						"sis/protected/controllers/AppController.php"
+					],
+					[
+						"usuarioiden",
+						"sis/protected/components/UsuarioIdentity.php"
+					],
+					[
+						"menulatera",
+						"sis/protected/views/layouts/_menuLateral.php"
+					],
+					[
+						"site",
+						"sis/protected/controllers/SiteController.php"
+					],
+					[
+						"controllerhome",
+						"sis/protected/controllers/HomeController.php"
+					],
+					[
+						"dash",
+						"sis/protected/views/home/dashboard.php"
+					],
+					[
+						"modelusua",
+						"sis/protected/models/Usuario.php"
+					],
+					[
+						"modelwiget",
+						"sis/protected/models/Widget.php"
+					],
+					[
+						"cbaseuser",
+						"yii/framework/web/auth/CBaseUserIdentity.php"
+					],
+					[
+						"cuseride",
+						"yii/framework/web/auth/CUserIdentity.php"
+					],
+					[
+						"forum",
+						"sis/protected/models/Forum.php"
+					],
+					[
+						"modelusu",
+						"sis/protected/models/Usuario.php"
+					],
+					[
+						"componentshelper",
+						"sis/protected/components/Helper.php"
+					],
+					[
+						"modelusuario",
+						"sis/protected/models/Usuario.php"
+					],
+					[
+						"_user",
+						"sis/protected/views/layouts/_userinfo.php"
+					],
+					[
+						"_menulate",
+						"sis/protected/views/layouts/_menuLateral.php"
+					],
+					[
+						"alunoturma",
+						"sis/protected/models/Alunoturma.php"
+					],
+					[
+						"plataforma",
+						"sis/protected/controllers/PlataformaController.php"
+					],
+					[
+						"plataformaexer",
+						"sis/protected/views/plataforma/exercicio.php"
+					],
+					[
+						"dashboard",
+						"protected/views/home/dashboard.php"
+					],
+					[
+						"index",
+						"protected/views/home/index.php"
+					],
+					[
+						"layoutbread",
+						"protected/views/layouts/_breadcrumb.php"
+					],
+					[
+						"layout",
+						"protected/views/layouts/teste.php"
+					],
+					[
+						"tree",
+						"protected/views/plataforma/treeEdcs.php"
+					],
+					[
+						"main",
+						"css/main.min.css"
+					],
+					[
+						"estude",
+						"css/estude-treeedc.css"
+					],
+					[
+						"main.min",
+						"css/main.min.css"
+					],
+					[
+						"layoutsiste",
+						"protected/views/layouts/sistema.php"
+					],
+					[
+						"modelsedc",
+						"protected/models/Edc.php"
+					],
+					[
+						"main.php",
+						"protected/config/main.php"
+					],
+					[
+						"htaccess",
+						"sis/.htaccess"
+					],
+					[
+						"sistema",
+						"sis/protected/views/layouts/sistema.php"
+					],
+					[
+						"hom",
+						"sis/protected/controllers/HomeController.php"
+					],
+					[
+						"develo",
+						"sis/protected/config/database-development.php"
+					],
+					[
+						"develop",
+						"sis/protected/config/database-development.php"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 206.0,
+			"status_bar_visible": true,
+			"window_id": 117,
 			"workspace_name": ""
 		}
 	],
