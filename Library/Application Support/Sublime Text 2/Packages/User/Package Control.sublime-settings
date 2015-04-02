@@ -11,6 +11,7 @@
 		"MasmAssembly",
 		"Package Control",
 		"Phpcs",
-		"SublimeCodeIntel"
+		"ReactJS",
+		"WakaTime"
 	]
 }
