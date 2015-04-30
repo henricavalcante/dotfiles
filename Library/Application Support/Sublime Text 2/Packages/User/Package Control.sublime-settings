@@ -5,12 +5,9 @@
 	"installed_packages":
 	[
 		"ColorPick",
-		"Dracula Color Scheme",
 		"JSHint",
 		"JSHint Gutter",
-		"MasmAssembly",
 		"Package Control",
-		"Phpcs",
 		"ReactJS",
 		"WakaTime"
 	]

@@ -3,6 +3,37 @@ History
 -------
 
 
+4.0.0 (2015-04-12)
+++++++++++++++++++
+
+- listen for selection modified instead of buffer activated for better performance
+
+
+3.0.19 (2015-04-07)
++++++++++++++++++++
+
+- fix bug in project detection when folder not found
+
+
+3.0.18 (2015-04-04)
++++++++++++++++++++
+
+- upgrade wakatime cli to v4.0.8
+- added api_url config option to .wakatime.cfg file
+
+
+3.0.17 (2015-04-02)
++++++++++++++++++++
+
+- use open folder as current project when not using revision control
+
+
+3.0.16 (2015-04-02)
++++++++++++++++++++
+
+- copy list when obfuscating api key so original command is not modified
+
+
 3.0.15 (2015-04-01)
 +++++++++++++++++++
 

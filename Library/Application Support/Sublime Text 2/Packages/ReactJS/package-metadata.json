@@ -1,1 +1,1 @@
-{"description": "Sublime Text helpers for React/JSX", "url": "https://github.com/reactjs/sublime-react", "platforms": ["*"], "version": "2015.02.14.06.02.07", "sublime_text": "*", "dependencies": []}
+{"description": "Sublime Text helpers for React. Syntax highlighting DEPRECATED in favor of babel/babel-sublime", "url": "https://github.com/reactjs/sublime-react", "platforms": ["*"], "version": "2015.04.18.19.05.33", "sublime_text": "*", "dependencies": []}

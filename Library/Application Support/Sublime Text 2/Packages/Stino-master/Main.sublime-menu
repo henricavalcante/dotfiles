@@ -26,6 +26,13 @@
                 "id": "sketchbook", 
                 "children": [
                     {
+                        "caption": "sketch_apr05a", 
+                        "args": {
+                            "folder": "/Users/henrimichel/Documents/Arduino/sketch_apr05a"
+                        }, 
+                        "command": "open_sketch"
+                    }, 
+                    {
                         "caption": "-", 
                         "command": null
                     }
@@ -1920,6 +1927,370 @@
                             }, 
                             {
                                 "mnemonic": null, 
+                                "caption": "USB_Host_Shield_2.0", 
+                                "id": "usb_host_shield_2.0", 
+                                "children": [
+                                    {
+                                        "mnemonic": null, 
+                                        "caption": "examples", 
+                                        "id": "examples", 
+                                        "children": [
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Bluetooth", 
+                                                "id": "bluetooth", 
+                                                "children": [
+                                                    {
+                                                        "caption": "BTHID", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Bluetooth/BTHID"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "PS3BT", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Bluetooth/PS3BT"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "PS3Multi", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Bluetooth/PS3Multi"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "PS3SPP", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Bluetooth/PS3SPP"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "PS4BT", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Bluetooth/PS4BT"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "SPP", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Bluetooth/SPP"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "SPPMulti", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Bluetooth/SPPMulti"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "Wii", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Bluetooth/Wii"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "WiiIRCamera", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Bluetooth/WiiIRCamera"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "WiiMulti", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Bluetooth/WiiMulti"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "WiiUProController", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Bluetooth/WiiUProController"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ]
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "HID", 
+                                                "id": "hid", 
+                                                "children": [
+                                                    {
+                                                        "caption": "USBHIDBootKbd", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/HID/USBHIDBootKbd"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "USBHIDBootKbdAndMouse", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/HID/USBHIDBootKbdAndMouse"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "USBHIDBootMouse", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/HID/USBHIDBootMouse"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "USBHIDJoystick", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/HID/USBHIDJoystick"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "USBHID_desc", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/HID/USBHID_desc"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "le3dp", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/HID/le3dp"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "scale", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/HID/scale"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ]
+                                            }, 
+                                            {
+                                                "caption": "PS3USB", 
+                                                "args": {
+                                                    "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/PS3USB"
+                                                }, 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "caption": "PS4USB", 
+                                                "args": {
+                                                    "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/PS4USB"
+                                                }, 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "caption": "PSBuzz", 
+                                                "args": {
+                                                    "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/PSBuzz"
+                                                }, 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "caption": "USB_desc", 
+                                                "args": {
+                                                    "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/USB_desc"
+                                                }, 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Xbox", 
+                                                "id": "xbox", 
+                                                "children": [
+                                                    {
+                                                        "caption": "XBOXOLD", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Xbox/XBOXOLD"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "XBOXONE", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Xbox/XBOXONE"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "XBOXRECV", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Xbox/XBOXRECV"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "XBOXUSB", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/Xbox/XBOXUSB"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ]
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "acm", 
+                                                "id": "acm", 
+                                                "children": [
+                                                    {
+                                                        "caption": "acm_terminal", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/acm/acm_terminal"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ]
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "adk", 
+                                                "id": "adk", 
+                                                "children": [
+                                                    {
+                                                        "caption": "ArduinoBlinkLED", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/adk/ArduinoBlinkLED"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "adk_barcode", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/adk/adk_barcode"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "demokit_20", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/adk/demokit_20"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "term_test", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/adk/term_test"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "term_time", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/adk/term_time"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ]
+                                            }, 
+                                            {
+                                                "caption": "board_qc", 
+                                                "args": {
+                                                    "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/board_qc"
+                                                }, 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "cdc_XR21B1411", 
+                                                "id": "cdc_xr21b1411", 
+                                                "children": [
+                                                    {
+                                                        "caption": "XR_terminal", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/cdc_XR21B1411/XR_terminal"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ]
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "ftdi", 
+                                                "id": "ftdi", 
+                                                "children": [
+                                                    {
+                                                        "caption": "USBFTDILoopback", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/ftdi/USBFTDILoopback"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ]
+                                            }, 
+                                            {
+                                                "caption": "hub_demo", 
+                                                "args": {
+                                                    "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/hub_demo"
+                                                }, 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "caption": "max_LCD", 
+                                                "args": {
+                                                    "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/max_LCD"
+                                                }, 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "pl2303", 
+                                                "id": "pl2303", 
+                                                "children": [
+                                                    {
+                                                        "caption": "pl2303_gprs_terminal", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/pl2303/pl2303_gprs_terminal"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "pl2303_gps", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/pl2303/pl2303_gps"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "pl2303_tinygps", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/pl2303/pl2303_tinygps"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "caption": "pl2303_xbee_terminal", 
+                                                        "args": {
+                                                            "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/pl2303/pl2303_xbee_terminal"
+                                                        }, 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ]
+                                            }, 
+                                            {
+                                                "caption": "testusbhostFAT", 
+                                                "args": {
+                                                    "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0/examples/testusbhostFAT"
+                                                }, 
+                                                "command": "open_sketch"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }, 
+                            {
+                                "mnemonic": null, 
                                 "caption": "WiFi", 
                                 "id": "wifi", 
                                 "children": [
@@ -2287,6 +2658,13 @@
                                 "caption": "TFT", 
                                 "args": {
                                     "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/TFT"
+                                }, 
+                                "command": "import_library"
+                            }, 
+                            {
+                                "caption": "USB_Host_Shield_2.0", 
+                                "args": {
+                                    "folder": "/Applications/Arduino 106.app/Contents/Resources/Java/libraries/USB_Host_Shield_2.0"
                                 }, 
                                 "command": "import_library"
                             }, 
@@ -2680,7 +3058,7 @@
                 "children": [
                     {
                         "checkbox": true, 
-                        "caption": "/dev/cu.Bluetooth-Incoming-Port", 
+                        "caption": "/dev/cu.CRIUS_BT-DevB", 
                         "args": {
                             "serial_port": 0
                         }, 
@@ -2688,7 +3066,7 @@
                     }, 
                     {
                         "checkbox": true, 
-                        "caption": "/dev/tty.Bluetooth-Incoming-Port", 
+                        "caption": "/dev/tty.CRIUS_BT-DevB", 
                         "args": {
                             "serial_port": 1
                         }, 
@@ -2712,7 +3090,7 @@
                     }, 
                     {
                         "checkbox": true, 
-                        "caption": "/dev/cu.RandomBot-DevB", 
+                        "caption": "/dev/cu.Bluetooth-Incoming-Port", 
                         "args": {
                             "serial_port": 4
                         }, 
@@ -2720,9 +3098,25 @@
                     }, 
                     {
                         "checkbox": true, 
-                        "caption": "/dev/tty.RandomBot-DevB", 
+                        "caption": "/dev/tty.Bluetooth-Incoming-Port", 
                         "args": {
                             "serial_port": 5
+                        }, 
+                        "command": "choose_serial_port"
+                    }, 
+                    {
+                        "checkbox": true, 
+                        "caption": "/dev/cu.RandomBot-DevB", 
+                        "args": {
+                            "serial_port": 6
+                        }, 
+                        "command": "choose_serial_port"
+                    }, 
+                    {
+                        "checkbox": true, 
+                        "caption": "/dev/tty.RandomBot-DevB", 
+                        "args": {
+                            "serial_port": 7
                         }, 
                         "command": "choose_serial_port"
                     }
