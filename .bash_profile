@@ -20,3 +20,5 @@ GREEN="\[\033[0;32m\]"
 NO_COLOUR="\[\033[0m\]"
 
 PS1="$YELLOW\u@machine$NO_COLOUR:\w$YELLOW\$(parse_git_branch)$NO_COLOUR\$ "
+
+alias pastebinubuntu="pastebinit -a henricavalcante -b http://paste.ubuntu.com"
