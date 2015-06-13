@@ -3,11 +3,4 @@
 !/.gitmodules
 !/.bash_profile
 !/.vimrc
-!/.vim/
-!/Library
-/Library/*
-!/Library/Application Support
-/Library/Application Support/*
-!/Library/Application Support/Sublime Text 2
-/Library/Application Support/Sublime Text 2/Settings/License.sublime_license
-/Library/Application Support/Sublime Text 2/Backup/
+/.vim/
