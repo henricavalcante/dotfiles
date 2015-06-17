@@ -44,7 +44,7 @@ endtry
 
 set tabstop=2
 set softtabstop=2
-set shiftwidth=4
+set shiftwidth=2
 set textwidth=80
 set smarttab
 set expandtab
@@ -65,10 +65,18 @@ hi User4 ctermfg=239 guifg=#a0ee40 guibg=#222222
 hi User5 guifg=#eeee40 guibg=#222222
 
 set statusline=                                     " Override default
+set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%2*\ %f\ %m\ %r%*                   " Show filename/path
-set statusline+=%3*%=%*                             " Set right-side status info after this line
-set statusline+=%4*%l/%L:%v%*                       " Set <line number>/<total lines>:<column>
+set statusline+=%3*%=%*
+set statusline+=%#warningmsg#
+set statusline+=%*
+set statusline+=%4*%l/%L:%v%*
 set statusline+=%5*\ %*                             " Set ending space
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 set noerrorbells
 set novisualbell
@@ -120,3 +128,5 @@ set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
 
+autocmd FileType javascript set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
+autocmd FileType php set tabstop=4|set shiftwidth=4|set softtabstop=4|set expandtab

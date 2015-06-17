@@ -3,6 +3,7 @@
 !/.gitmodules
 !/.bash_profile
 !/.vimrc
-!/install.sh
 !/.gitconfig
 !/.gitignore_global
+!/.tmux.conf
+!/install.sh
