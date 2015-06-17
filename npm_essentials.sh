@@ -1,0 +1,9 @@
+sudo npm i -g grunt-cli
+sudo npm i -g bower
+sudo npm i -g gulp
+sudo npm i -g http-server
+sudo npm i -g jshint
+sudo npm i -g flow
+sudo npm i -g forever
+sudo npm i -g gh
+sudo npm i -g istanbul

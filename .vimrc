@@ -13,38 +13,27 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/syntastic'
-NeoBundle 'pangloss/vim-javascript'
-NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'terryma/vim-multiple-cursors'
 NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'jelera/vim-javascript-syntax'
 
 call neobundle#end()
 
 filetype plugin indent on
 NeoBundleCheck
 
-set background=dark
-filetype on
-filetype plugin on
-filetype indent on
 set autowrite
-
 set hidden
 let mapleader = ","
 set showcmd
 
 syntax on
-
+syntax enable
 imap <C-c> <esc>
 
-try
-    colorscheme solarized
-catch
-endtry
-
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set textwidth=80
 set smarttab
 set expandtab
@@ -58,12 +47,6 @@ set cursorline!
 set list
 set listchars=nbsp:¬,tab:»·,trail:·,eol:$,extends:>,precedes:<
 
-hi User1 ctermfg=196 guifg=#eea040 guibg=#222222
-hi User2 ctermfg=75 guifg=#dd3333 guibg=#222222
-hi User3 guifg=#ff66ff guibg=#222222
-hi User4 ctermfg=239 guifg=#a0ee40 guibg=#222222
-hi User5 guifg=#eeee40 guibg=#222222
-
 set statusline=                                     " Override default
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%2*\ %f\ %m\ %r%*                   " Show filename/path
@@ -73,13 +56,13 @@ set statusline+=%*
 set statusline+=%4*%l/%L:%v%*
 set statusline+=%5*\ %*                             " Set ending space
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_syntax_checker=["jsxhint"]
+let g:syntastic_check_on_open=1
+let g:syntastic_enable_signs=1
 
-set noerrorbells
-set novisualbell
+"set noerrorbells
+"set novisualbell
 set timeoutlen=500
 set hlsearch
 set incsearch
