@@ -110,6 +110,10 @@ let loaded_matchparen = 1
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\v[\/](\.(git|hg|svn))|(node_modules)$',
+    \ 'file': '\v\.(exe|so|dll|ico|png|jpe?g|DS_Store)$',
+    \ }
 nmap <silent> <C-D> :NERDTreeToggle<CR>
 
 set scrolloff=8         "Start scrolling when we're 8 lines away from margins
