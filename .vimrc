@@ -15,6 +15,8 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'terryma/vim-multiple-cursors'
+NeoBundle 'kien/ctrlp.vim'
 
 call neobundle#end()
 
@@ -27,7 +29,6 @@ filetype plugin on
 filetype indent on
 set autowrite
 
-" allow switching between buffers without saving
 set hidden
 let mapleader = ","
 set showcmd
@@ -37,7 +38,7 @@ syntax on
 imap <C-c> <esc>
 
 try
-    colorscheme solarized 
+    colorscheme solarized
 catch
 endtry
 
@@ -68,7 +69,7 @@ set statusline+=%2*\ %f\ %m\ %r%*                   " Show filename/path
 set statusline+=%3*%=%*                             " Set right-side status info after this line
 set statusline+=%4*%l/%L:%v%*                       " Set <line number>/<total lines>:<column>
 set statusline+=%5*\ %*                             " Set ending space
-set scrolloff=7
+
 set noerrorbells
 set novisualbell
 set timeoutlen=500
@@ -108,17 +109,10 @@ map Q <Nop>
 let loaded_matchparen = 1
 
 let g:ctrlp_map = '<c-p>'
+let g:ctrlp_working_path_mode = 'ra'
 nmap <silent> <C-D> :NERDTreeToggle<CR>
-
 
 set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
 
-nnoremap <C-n> :bnext<CR>
-nnoremap <C-p> :bprevious<CR>
-
-let g:multi_cursor_next_key='<C-n>'
-let g:multi_cursor_prev_key='<C-p>'
-let g:multi_cursor_skip_key='<C-x>'
-let g:multi_cursor_quit_key='<Esc>'
