@@ -3,4 +3,6 @@
 !/.gitmodules
 !/.bash_profile
 !/.vimrc
-/.vim/
+!/install.sh
+!/.gitconfig
+!/.gitignore_global
