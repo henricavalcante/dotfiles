@@ -1,0 +1,13 @@
+*.pyc
+.DS_Store
+Desktop.ini
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes
