@@ -62,8 +62,8 @@
     # Sync
     sync = plu && pso
 [color]
-  diff = auto
-  status = auto
+    diff = auto
+    status = auto
 [color "diff"]
     meta = yellow bold
     frag = magenta bold
@@ -80,5 +80,5 @@
     # the usual default is to push all branches
     default = tracking
 [core]
-    editor = <%- editor %>
+    editor = vim
     excludesfile = ~/.gitignore_global

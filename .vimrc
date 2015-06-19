@@ -47,6 +47,8 @@ set cursorline!
 set list
 set listchars=nbsp:¬,tab:»·,trail:·,eol:$,extends:>,precedes:<
 
+highlight NonText term=standout cterm=bold ctermfg=0  guifg=Black
+
 set statusline=                                     " Override default
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%2*\ %f\ %m\ %r%*                   " Show filename/path
@@ -107,9 +109,10 @@ let g:ctrlp_custom_ignore = {
     \ }
 nmap <silent> <C-D> :NERDTreeToggle<CR>
 
-set scrolloff=8         "Start scrolling when we're 8 lines away from margins
+set scrolloff=8
 set sidescrolloff=15
 set sidescroll=1
 
 autocmd FileType javascript set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
+autocmd FileType html set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
 autocmd FileType php set tabstop=4|set shiftwidth=4|set softtabstop=4|set expandtab
