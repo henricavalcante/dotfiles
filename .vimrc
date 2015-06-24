@@ -16,6 +16,7 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'terryma/vim-multiple-cursors'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'jelera/vim-javascript-syntax'
+NeoBundle 'elzr/vim-json'
 
 call neobundle#end()
 
