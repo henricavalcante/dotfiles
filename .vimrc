@@ -17,6 +17,7 @@ NeoBundle 'terryma/vim-multiple-cursors'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'jelera/vim-javascript-syntax'
 NeoBundle 'elzr/vim-json'
+NeoBundle 'mattn/emmet-vim'
 
 call neobundle#end()
 
@@ -113,6 +114,18 @@ nmap <silent> <C-D> :NERDTreeToggle<CR>
 set scrolloff=8
 set sidescrolloff=15
 set sidescroll=1
+
+let g:user_emmet_settings = {
+  \  'html' : {
+  \    'snippets' : {
+  \      'cdn:jsx' : "script[src=\"https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js\"]",
+  \      'cdn:react' : "script[src=\"https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js\"]",
+  \      'cdn:jquery' : "script[src=\"https://code.jquery.com/jquery-1.11.1.js\"]",
+  \      'cdn:jqueryui' : "script[src=\"https://code.jquery.com/ui/1.11.4/jquery-ui.js\"]",
+  \      'cdn:socketio' : "script[src=\"https://cdn.socket.io/socket.io-1.2.0.js\"]"
+  \    }
+  \  }
+  \}
 
 autocmd FileType javascript set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
 autocmd FileType html set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
