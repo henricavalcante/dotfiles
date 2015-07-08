@@ -25,7 +25,9 @@ YELLOW="\[\033[0;33m\]"
 GREEN="\[\033[0;32m\]"
 GREY="\[\033[1;30m\]"
 NO_COLOUR="\[\033[39m\]"
-PS1="$GREEN\n[$GREY\$(date +%H:%M:%S)$GREEN] $YELLOW\u@machine$NO_COLOUR:\w$YELLOW\$(parse_git_branch)\n$GREEN\$ $NO_COLOUR"
+PS1="$GREEN\n[$RED\$(date +%H:%M:%S)$GREEN] $YELLOW\u@machine$NO_COLOUR:\w$YELLOW\$(parse_git_branch)\n$GREEN\$ $NO_COLOUR"
 
 #Ubuntu pastebin
 alias pastebinubuntu="pastebinit -a henricavalcante -b http://paste.ubuntu.com"
+
+export TERM="xterm-256color"
