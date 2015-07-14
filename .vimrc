@@ -1,3 +1,6 @@
+scriptencoding utf-8
+set encoding=utf-8
+
 if 0 | endif
 
 if has('vim_starting')
