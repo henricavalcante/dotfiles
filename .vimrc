@@ -18,10 +18,11 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'terryma/vim-multiple-cursors'
 NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'jelera/vim-javascript-syntax'
+NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'Lokaltog/vim-powerline'
+NeoBundle 'tacahiroy/ctrlp-ssh'
 
 call neobundle#end()
 
@@ -37,6 +38,8 @@ syntax on
 syntax enable
 imap <C-c> <esc>
 
+map <C-j> :tabn<CR>
+
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -45,11 +48,11 @@ set smarttab
 set expandtab
 set smartindent
 "set ruler
-"set relativenumber
+set relativenumber
 set ttyfast
 set autoread
 set more
-set cursorline!
+set cursorline
 set list
 set listchars=nbsp:¬,tab:»·,trail:·,eol:$,extends:>,precedes:<
 
@@ -78,6 +81,7 @@ set magic
 set showmatch
 set matchtime=2
 set laststatus=2
+set backspace=indent,eol,start
 
 if has("persistent_undo")
     set undodir=~/.vim/undodir
