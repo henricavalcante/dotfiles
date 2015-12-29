@@ -23,6 +23,7 @@ NeoBundle 'elzr/vim-json'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'Lokaltog/vim-powerline'
 NeoBundle 'tacahiroy/ctrlp-ssh'
+NeoBundle 'tpope/vim-markdown'
 
 call neobundle#end()
 

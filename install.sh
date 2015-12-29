@@ -1,6 +1,7 @@
 #!/bin/bash
 
 if [ "$(uname)" == "Darwin" ]; then
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     brew install https://raw.github.com/Homebrew/homebrew-dupes/master/grep.rb
     brew install tmux
     brew install reattach-to-user-namespace
