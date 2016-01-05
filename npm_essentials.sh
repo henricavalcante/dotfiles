@@ -1,3 +1,4 @@
+sudo npm i -g npm
 sudo npm i -g grunt-cli
 sudo npm i -g bower
 sudo npm i -g gulp
