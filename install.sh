@@ -17,3 +17,4 @@ git clone https://github.com/erikw/tmux-powerline.git ~/tmux-powerline
 mkdir NeoBundle
 curl -o NeoBundle/install.sh https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh
 sh ./NeoBundle/install.sh
+sh ./npm_essentials.sh
