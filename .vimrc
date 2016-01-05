@@ -24,6 +24,7 @@ NeoBundle 'mattn/emmet-vim'
 NeoBundle 'Lokaltog/vim-powerline'
 NeoBundle 'tacahiroy/ctrlp-ssh'
 NeoBundle 'tpope/vim-markdown'
+NeoBundle 'digitaltoad/vim-jade'
 
 call neobundle#end()
 
