@@ -25,6 +25,7 @@ NeoBundle 'Lokaltog/vim-powerline'
 NeoBundle 'tacahiroy/ctrlp-ssh'
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'digitaltoad/vim-jade'
+NeoBundle 'SyntaxRange'
 
 call neobundle#end()
 
@@ -40,7 +41,8 @@ syntax on
 syntax enable
 imap <C-c> <esc>
 
-map <C-j> :tabn<CR>
+map <C-k> :bp<CR>
+map <C-j> :bn<CR>
 
 set tabstop=4
 set softtabstop=4
@@ -139,3 +141,4 @@ let g:user_emmet_settings = {
 autocmd FileType javascript set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
 autocmd FileType html set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
 autocmd FileType php set tabstop=4|set shiftwidth=4|set softtabstop=4|set expandtab
+autocmd FileType yml set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
