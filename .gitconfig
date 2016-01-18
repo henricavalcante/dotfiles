@@ -81,4 +81,5 @@
     default = tracking
 [core]
     editor = vim
+    fileMode = false
     excludesfile = ~/.gitignore_global
