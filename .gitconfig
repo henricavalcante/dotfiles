@@ -58,9 +58,11 @@
     # Logs
     l  = log --pretty=oneline --decorate --abbrev-commit --max-count=15
     ll = log --graph --pretty=format:'%Cred%h%Creset %an: %s %Creset%Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+    lc = log -p --follow -n 1
 
     # Sync
     sync = plu && pso
+
 [color]
     diff = auto
     status = auto
