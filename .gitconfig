@@ -2,6 +2,7 @@
     name = Henri Cavalcante
     email = hnri_mxel@hotmail.com
     editor = vim
+    signingkey = 256A5AC5
 [alias]
     # Add
     ad = add
@@ -9,6 +10,7 @@
 
     # Commit
     cm = commit -m
+    csm = commit -S -m
     ca = commit --amend -m
 
     # Checkout
