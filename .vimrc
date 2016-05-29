@@ -19,6 +19,7 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'terryma/vim-multiple-cursors'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'mxw/vim-jsx'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'Lokaltog/vim-powerline'
@@ -142,5 +143,7 @@ autocmd FileType javascript set tabstop=2|set shiftwidth=2|set softtabstop=2|set
 autocmd FileType html set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
 autocmd FileType php set tabstop=4|set shiftwidth=4|set softtabstop=4|set expandtab
 autocmd FileType yml set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
-
+autocmd FileType java set tabstop=4|set shiftwidth=4|set softtabstop=4|set noexpandtab
 autocmd FileType javascript set makeprg=node\ %
+
+let g:jsx_ext_required = 0
