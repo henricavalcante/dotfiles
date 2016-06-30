@@ -74,6 +74,7 @@ highlight NonText term=standout cterm=bold ctermfg=0  guifg=Black
 
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_syntax_checker=["jsxhint"]
+let g:syntastic_html_tidy_exec = 'tidy'
 let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=1
 
@@ -140,10 +141,12 @@ let g:user_emmet_settings = {
             \}
 
 autocmd FileType javascript set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
+autocmd FileType css set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
 autocmd FileType html set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
 autocmd FileType php set tabstop=4|set shiftwidth=4|set softtabstop=4|set expandtab
 autocmd FileType yml set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
 autocmd FileType java set tabstop=4|set shiftwidth=4|set softtabstop=4|set noexpandtab
+autocmd FileType python set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
 autocmd FileType javascript set makeprg=node\ %
 
 let g:jsx_ext_required = 0
