@@ -1,6 +1,7 @@
 #Path
 export PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/Applications/android-sdk-macosx/tools:$PATH"
 export PATH="/Applications/android-sdk-macosx/build-tools:$PATH"
