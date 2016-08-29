@@ -11,7 +11,7 @@
     # Commit
     cm = commit -m
     csm = commit -S -m
-    ca = commit --amend -m
+    cam = commit --amend -m
 
     # Checkout
     co = checkout
@@ -35,19 +35,23 @@
     pl   = pull
     plo  = pull --rebase origin
     plom = pull --rebase origin master
+    plod = pull --rebase origin develop
     plog = pull --rebase origin gh-pages
     plu  = pull --rebase upstream
     plum = pull --rebase upstream master
+    plud = pull --rebase upstream develop
     plug = pull --rebase upstream gh-pages
 
     # Push
-    ps   = push
-    pso  = push origin
-    psom = push origin master
-    psog = push origin gh-pages
-    psu  = push upstream
-    psum = push upstream master
-    psug = push upstream gh-pages
+    ps    = push
+    pso   = push origin
+    psom  = push origin master
+    psog  = push origin gh-pages
+    psorh = push origin release/henri
+    psofh = push origin feature/henri
+    psu   = push upstream
+    psum  = push upstream master
+    psug  = push upstream gh-pages
 
     # Remote
     ra  = remote add
@@ -86,4 +90,10 @@
 [core]
     editor = vim
     fileMode = false
-    excludesfile = ~/.gitignore_global
+    excludesfile = /Users/henricavalcante/.gitignore_global
+[difftool "sourcetree"]
+    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+    path = 
+[mergetool "sourcetree"]
+    cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+    trustExitCode = true
