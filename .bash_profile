@@ -20,6 +20,7 @@ export ANDROID_HOME="/Applications/android-sdk-macosx"
 #Aliases
 alias ls="ls -Ga"
 alias ll="ls -la"
+alias restartcamera='sudo killall AppleCameraAssistant;sudo killall VDCAssistant'
 
 #PS1
 function parse_git_branch () {
