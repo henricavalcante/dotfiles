@@ -10,28 +10,26 @@ if has('vim_starting')
     set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
 
-call neobundle#begin(expand('~/.vim/bundle/'))
+call plug#begin('~/.vim/plugged')
 
-NeoBundleFetch 'Shougo/neobundle.vim'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'scrooloose/syntastic'
-NeoBundle 'terryma/vim-multiple-cursors'
-NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'pangloss/vim-javascript'
-NeoBundle 'mxw/vim-jsx'
-NeoBundle 'elzr/vim-json'
-NeoBundle 'mattn/emmet-vim'
-NeoBundle 'Lokaltog/vim-powerline'
-NeoBundle 'tacahiroy/ctrlp-ssh'
-NeoBundle 'tpope/vim-markdown'
-NeoBundle 'digitaltoad/vim-jade'
-NeoBundle 'SyntaxRange'
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'kien/ctrlp.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'elzr/vim-json'
+Plug 'mattn/emmet-vim'
+Plug 'Lokaltog/vim-powerline'
+Plug 'tacahiroy/ctrlp-ssh'
+Plug 'tpope/vim-markdown'
+Plug 'digitaltoad/vim-jade'
+Plug 'SyntaxRange'
 
-call neobundle#end()
+call plug#end()
 
 filetype plugin indent on
-NeoBundleCheck
 
 set autowrite
 set hidden
