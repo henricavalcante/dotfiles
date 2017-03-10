@@ -45,6 +45,7 @@
     # Push
     ps    = push
     pso   = push origin
+    psoh  = push origin HEAD
     psom  = push origin master
     psog  = push origin gh-pages
     psorh = push origin release/henri
