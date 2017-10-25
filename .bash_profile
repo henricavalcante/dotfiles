@@ -36,6 +36,8 @@ PS1="$GREEN\n[$RED\$(date +%H:%M:%S)$GREEN] $YELLOW\u@machine$NO_COLOUR:\w$YELLO
 #Ubuntu pastebin
 alias pastebinubuntu="pastebinit -a henricavalcante -b http://paste.ubuntu.com"
 
+alias xclip='xclip -selection c'
+
 export TERM="xterm-256color"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
