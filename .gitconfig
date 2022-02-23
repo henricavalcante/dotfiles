@@ -65,6 +65,9 @@
 
     # Sync
     sync = plu && pso
+    
+    # Tag
+    t = tag --sort=-refname
 
 [color]
     diff = auto
