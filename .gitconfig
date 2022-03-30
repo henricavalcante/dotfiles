@@ -34,19 +34,19 @@
     # Pull
     pl   = pull
     plo  = pull --rebase origin
-    plom = pull --rebase origin main
+    plob = pull --rebase origin beta
     plod = pull --rebase origin develop
+    plom = pull --rebase origin main
     plu  = pull --rebase upstream
-    plum = pull --rebase upstream main
+    plub = pull --rebase upstream beta
     plud = pull --rebase upstream develop
+    plum = pull --rebase upstream main
 
     # Push
     ps    = push
     pso   = push origin
     psoh  = push origin HEAD
     psom  = push origin main
-    psorh = push origin release/henri
-    psofh = push origin feature/henri
     psu   = push upstream
     psum  = push upstream main
 
