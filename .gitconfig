@@ -24,7 +24,6 @@
     df = diff
 
     # List
-    tl = tag -l
     bl = branch -a
     rl = remote -v
 
@@ -37,26 +36,11 @@
     plob = pull --rebase origin beta
     plod = pull --rebase origin develop
     plom = pull --rebase origin main
-    plu  = pull --rebase upstream
-    plub = pull --rebase upstream beta
-    plud = pull --rebase upstream develop
-    plum = pull --rebase upstream main
 
     # Push
     ps    = push
     pso   = push origin
     psoh  = push origin HEAD
-    psom  = push origin main
-    psu   = push upstream
-    psum  = push upstream main
-
-    # Remote
-    ra  = remote add
-    rao = remote add origin
-    rau = remote add upstream
-    rs  = remote set-url
-    rso = remote set-url origin
-    rsu = remote set-url upstream
 
     # Logs
     l  = log --pretty=oneline --decorate --abbrev-commit --max-count=15
@@ -68,6 +52,11 @@
     
     # Tag
     t = tag --sort=-refname
+    tl = tag -l
+
+    # Fetch
+    fo = fetch origin
+    fop = fetch origin --prune
 
 [color]
     diff = auto
