@@ -1,3 +1,0 @@
-# dotfiles
-
-![Print](print.png)
